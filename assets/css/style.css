@@ -167,7 +167,8 @@ textarea{
 
 /* portfolio.html */
 #portfolio-section .container {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 #portfolio-section{
     background-position: center;
@@ -223,6 +224,9 @@ textarea{
     width: 100%;
     height: auto;
   }
+  .row{
+      margin-left: 10px;
+  }
 /* Global */
 @media screen and (max-width:640px) {
     .navbar{
@@ -249,19 +253,26 @@ textarea{
 /* index.html */
 @media screen and (max-width:640px) {
    #about-me-section{
-        margin-top:40px;
+        margin-top:30px;
+        margin-bottom: 60px;
    }
 } 
 /* portfolio.html */
 @media screen and (max-width:640px) {
+    #portfolio-section .container{
+        margin-top:30px;
+        margin-bottom: 60px;
+        overflow:hidden;
+        width:100%;
+        
+    }
     #portfolio-image-info{
         margin-left:45px;
     } 
     .portfolio-image img{
-        float:  left;
         width:450px;
         height:350px;
-        margin:0px;
+        margin:0;
     }
     .portfolio-image .position-text{
         transform: translate(-19.1%, 30%);
@@ -269,6 +280,9 @@ textarea{
         width:450px;
         font-size: 30px;
     }
+    .row{
+        margin-left: 0; 
+    }  
 }
 /* contact.html*/
 @media screen and (max-width:640px) {
