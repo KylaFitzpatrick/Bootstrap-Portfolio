@@ -1,0 +1,280 @@
+/* * {
+    box-sizing:border-box;
+} */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* margin:0;  */
+    font:15px/1.5 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:#ffffff;  
+    color:#777777;
+    border-color:#dddddd;
+    background-image:url("../images/ep_naturalwhite.png");
+    background-repeat:repeat;
+    margin:auto;
+    padding-bottom: 30px;
+}
+/* Global */
+.container{
+    margin:auto;
+    background-color:#ffffff;
+    overflow:auto;
+    align-items: center;
+    width:960px;
+    padding:0;    
+}
+ ul{
+    margin:0;
+    padding:0;
+} 
+
+/* Header */
+header{
+    background-color:#ffffff;
+    border-color:#cccccc;
+    border-bottom: #cccccc 1px solid;
+    
+}
+header a{
+    color:#777777;
+    text-decoration:none;
+}
+a:hover{
+    color:#4aaaa5;
+}
+header li{
+    display:inline;   
+}
+header li::after{
+    content: "|"; 
+    padding: 10px;
+    color: #cccccc;
+}
+header li:last-child::after{
+    display:none;
+}
+header #logo-name h1{ 
+    float:left;
+    margin:0;
+    padding: 10px;
+}
+header nav{
+    float:right;
+    margin-top:20px;
+}
+
+/* Headings */
+h1{
+    background-color:#4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    color:#ffffff;
+    font-weight: bold;
+}
+h2{
+    color:#4aaaa5;
+    border-bottom:#cccccc 1px solid;
+    padding-bottom:20px; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+footer{
+    background-color:#666666;
+    margin:0;
+    border-top:8px solid #4aaaa5;
+}
+
+img{
+    width:50%;
+    height:50%;
+    float:left;
+    margin-right:20px;
+}
+.clearfix{
+    overflow:auto;
+}
+.footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    color:#ffffff;
+    padding:0px 0px -38px 0px;
+    box-sizing:border-box;
+    padding-top: 30px;
+}
+
+
+
+
+
+/* index.html */
+#about-me-section{
+    margin-top:20px;
+    margin-bottom:10px;
+    background-position: center;
+    text-align: left;
+    float:center;
+}
+#about-me{
+    margin:30px;
+}
+#about-image-info{
+    margin:30px;
+    line-height:1.9;
+}
+/* contact.html */
+#contact-form-section{
+    margin-top:20px;
+    margin-bottom:10px;
+    background-position: center;
+    text-align: left;
+    float:center;
+}
+#contact{
+    margin:30px;
+}
+#contact-form{
+    margin:30px;
+}
+.contact-button{
+    display: block;
+    width: 80px;
+    height: 30px;
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#ffffff;
+    background-color: #4aaaa5;
+  }
+  .contact-button:hover{
+    color:#4aaaa5;
+    background-color:#ffffff;
+    border-color: #4aaaa5;
+  }
+input{
+    width:100%;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+    border-color: #cccccc;
+}
+
+/* portfolio.html */
+#portfolio-section .container {
+    margin-bottom: 100px;
+}
+#portfolio-section{
+    background-position: center;
+    text-align: left;
+    float:center;
+    margin-top: 40px;
+
+}
+#portfolio{
+    margin:30px;
+}
+#portfolio-image-info{
+    margin:30px;
+
+}
+.portfolio-image{
+    float: left;
+    width:40%;
+    height:30%; 
+    position: relative;
+    margin-bottom:50px;
+    margin-right:-20px;
+
+} 
+.portfolio-image img{
+    float:  left;
+    width:300px;
+    height:200px;
+    margin:0px;
+}
+.portfolio-image .position-text{
+    overflow:hidden;
+    text-align:center;
+    background-color:#4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    color:#ffffff;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-58%, 30%); */
+    transform: translate(-18.65%, 30%);
+    width:300px;
+    padding:20px 0px 20px 0px;
+    font-size: 20px;
+    margin:0;
+}
+.portfolio-image .position-text:hover{
+    background-color:#ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+/* Global */
+@media screen and (max-width:640px) {
+    .navbar{
+        margin:0;
+        width:100%;
+        justify-content: center;
+    }
+    h1{
+        text-align:center;
+        margin:0;
+        padding:0;
+        float:left;
+        width:100%;
+    }
+    header #logo-name h1{ 
+        margin:0 auto;
+        padding-right: 0;
+    }
+    .container{
+        justify-content: center;
+        padding:0px;
+    }
+}
+/* index.html */
+@media screen and (max-width:640px) {
+   #about-me-section{
+        margin-top:40px;
+   }
+} 
+/* portfolio.html */
+@media screen and (max-width:640px) {
+    #portfolio-image-info{
+        margin-left:45px;
+    } 
+    .portfolio-image img{
+        float:  left;
+        width:450px;
+        height:350px;
+        margin:0px;
+    }
+    .portfolio-image .position-text{
+        transform: translate(-19.1%, 30%);
+        width:100%;
+        width:450px;
+        font-size: 30px;
+    }
+}
+/* contact.html*/
+@media screen and (max-width:640px) {
+    #contact-form-section{
+        margin-bottom: 70px;
+        margin-top: 38px;
+    }
+}
+   
