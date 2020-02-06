@@ -169,14 +169,15 @@ textarea{
 
 /* portfolio.html */
 #portfolio-section .container {
-    margin-bottom: 40px;
     overflow: hidden;
-}
+} 
 #portfolio-section{
     background-position: center;
     text-align: left;
     float:center;
     margin-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
 
 }
 #portfolio{
