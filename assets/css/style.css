@@ -334,7 +334,7 @@ textarea{
         overflow:hidden;
         width:100%;
     }
-    /* Global */
+    /* Global
 @media screen and (max-width:500px) {
     header .container{
         overflow:hidden;
@@ -371,7 +371,7 @@ textarea{
     }
 }
 /* portfolio */
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     #portfolio-section .container{
         margin-top:0;
         margin-bottom: 60px;
@@ -404,6 +404,6 @@ textarea{
         margin-top: 0;
 
     }
-    
-}
+     */
+} */
 
