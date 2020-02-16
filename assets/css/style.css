@@ -220,6 +220,12 @@ textarea{
     font-size: 20px;
     margin:0;
 }
+.portfolio-image .position-text a{
+    color: #ffffff;
+}
+.portfolio-image .position-text a:hover{
+    color:#4aaaa5;
+}
 .portfolio-image .position-text:hover{
     background-color:#ffffff;
     font-family:'Georgia', Times, 'Times New Roman', serif;
