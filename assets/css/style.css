@@ -204,7 +204,7 @@ textarea{
     height:200px;
     margin:0px;
 }
-.portfolio-image .position-text{
+.portfolio-image .position-text a{
     overflow:hidden;
     text-align:center;
     background-color:#4aaaa5;
@@ -220,17 +220,20 @@ textarea{
     font-size: 20px;
     margin:0;
 }
-.portfolio-image .position-text a{
+/* .portfolio-image .position-text a{
     color: #ffffff;
-}
+} */
 .portfolio-image .position-text a:hover{
     color:#4aaaa5;
+    background-color:#ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    text-decoration: none;
 }
-.portfolio-image .position-text:hover{
+/* .portfolio-image .position-text:hover{
     background-color:#ffffff;
     font-family:'Georgia', Times, 'Times New Roman', serif;
     color:#4aaaa5;
-}
+} */
 .responsive {
     width: 100%;
     height: auto;
