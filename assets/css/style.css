@@ -325,11 +325,12 @@ textarea{
         height:300px;
         margin:0;
     }
-    .portfolio-image .position-text{
+    .position-text{
         transform: translate(-19.1%, 30%);
         width:100%;
         width:400px;
         font-size: 30px;
+        margin: 0;
     }
     .row{
         margin-left: 0; 
